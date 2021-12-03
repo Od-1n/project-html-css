@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica;
+}
+
+.logo {
+    display:  inline-flex;
+    padding: 10px;
+    height: 110px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 35px;
+
+}
+.menu {
+    display: inline-flex;
+
+}
+.menu li{
+    display: inline-flex;
+    margin: 15px;
+    font-weight: bold;
+
+}
+.menu li a:hover{
+    color:rgba(91, 91, 236, 0.795);
+}
