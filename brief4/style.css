@@ -1,0 +1,156 @@
+body{
+    background: url(odin.jpg);
+}
+nav h1{
+    color: white;
+    text-align: center;   
+    font-family: monospace;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    margin-right: 40px;  
+}
+  nav ul{
+      border: 1px solid;
+      border-radius: 5px;
+      background:#c0c4c794;     
+  }
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:5px;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.fieldset1{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    width: fit-content;
+    position: absolute;
+    top: 150px;
+    left:60px;
+    right: 10px;
+    border-radius: 5px;
+    padding: 20px; 
+    background:#c0c4c794;      
+}
+
+#odin{
+    color:rgb(12, 0, 0);
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.odin1{
+    border-radius: 5px;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    
+}
+.odin2{
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana
+}
+#sub{
+    border-radius: 5px;
+    padding:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+@media screen and (min-width:700px) {
+    *{
+        margin: 0;
+    }
+    body  {
+        background: url(odin.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    
+    }
+    a:hover {
+        text-decoration: underline;
+        color: black;
+    }
+    nav li {
+        list-style: none;
+    }
+    li a {
+        text-decoration: none;
+        margin: 10px;
+        color: white;
+    }
+    .nav1 h1{
+        position: absolute;
+        top: 20px;
+        color: rgba(255, 255, 255, 0.863);
+        margin-left: 10px;
+        font-family: monospace;
+     
+    }
+    .H1{
+        margin-right: 10px;
+    }
+    
+    .nav1 ul {
+         display: flex;
+        margin-bottom: 10px;
+        width: 50%;
+        justify-content: center;
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        background-color: transparent;
+        justify-content: space-around;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: none;
+    }
+    .fieldset1{
+        text-align: center;
+        justify-content: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+        width:385px;
+        position: absolute;
+        top:150px;
+        left: 420px;
+        right: 750px;
+        border-radius: 5px;
+        padding: 20px;
+        background-attachment: fixed; 
+        background:#c0c4c794;      
+    }
+    #odin{
+        color:rgb(12, 0, 0);
+        padding: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      
+    }
+    .odin1{
+        border-radius: 5px;
+        margin: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+        
+    }
+    .odin2{
+        border-radius: 5px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana
+    }
+    #sub{
+        border-radius: 5px;
+        padding:10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+        background-color: black;
+        color: white;
+        margin: 10px;
+    }
+    
+}
+
